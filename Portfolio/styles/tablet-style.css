@@ -1,0 +1,239 @@
+/* For mobiles*/
+
+/*creen resolutions smaller than 620px width */
+@media all and (min-width: 420px) and (max-width: 600px){
+    
+
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+
+.fp-tableCell{
+	padding-top: 25%;
+}
+
+#icon-image{
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+}    
+    
+.intro{
+    padding-bottom: 20%;
+}
+
+h1{
+	font-size: 4em;
+}
+
+h2{
+    font-family: 'Comic Sans MS',  sans-serif;
+    font-size: 2.5em;
+}
+
+h3{
+    font-family: 'Comic Sans MS',  sans-serif;
+    font-size: 2em;
+}
+    
+h3 a{
+    font-size: 0.6em;    
+}    
+
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+    padding: 2%;
+}
+
+#menu li {
+	display:inline-block;
+    font-size: 1.3em;
+	margin: 0.05em;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+			border-radius: 10px;
+}
+
+#menu li.active{
+	background: ;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+
+#menu li a,
+#menu li.active a{
+	padding: 5px 6px;
+	display:block;
+}
+
+#menu li.active a{
+	color: #fff;
+}
+
+    
+#skills-section {
+    color: #926239;
+    font-family: 'Lucida Console', Monaco, monospace;
+    font-size: 1em;
+	padding-top: 5%;
+}
+    
+#skills-section h2{
+    font-size: 1.7em;
+}
+    
+
+#skills-section .row, {
+    padding: 1%;
+    
+    
+}
+
+.experience-tile{
+    background-color: gainsboro;
+    min-height: 300px;
+    margin-top: 7%;
+    text-align: left;
+}
+
+.experience-tile:hover{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px 5px #888888;
+}
+
+
+.projects-tile{
+    background-color: gainsboro;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    text-align: left;
+}
+
+.projects-tile:hover{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px 5px #888888;
+}
+
+    
+    
+#contact-section h2{
+    font-size: 3em;
+    padding-bottom: 7%;
+}
+
+    
+#contact-section label{
+    font-size: 1.4em;
+    padding-bottom: 5%;
+    
+}
+
+
+.fp-controlArrow.fp-next {
+    border-width: 18.5px 0 18.5px 18.5px;
+}   
+    
+.fp-controlArrow.fp-prev {
+    border-width: 18.5px 18.5px 18.5px 0;
+}   
+
+.icon-image{
+    height: 48px;
+    width: 48px;
+}
+    
+.resume-image{
+    height: 64px;
+    width: 64px;
+}
+
+
+.scroll-bottom{
+    font-size: 1em;
+    text-align: center;
+    color: #909090;
+    -webkit-animation:bounce 2s infinite;
+    margin-bottom: -2%;
+}
+
+.scroll-top{
+    font-size: 1em;
+    text-align: center;
+    color: #909090;
+    -webkit-animation:bounce 2s infinite;
+    margin-bottom: -2%;
+}
+
+.title{
+    font-size: 1.5em;
+    padding-bottom: 5%;
+}
+
+.middle{
+    font-size: 1.2em;
+    padding-bottom: 3%;
+}
+
+.summary{
+    font-size: 1em;
+    padding-bottom: 3%;
+}
+
+.summary h3{
+    padding-bottom: 3%;
+	font-size: 1.3em;
+}
+
+.summary ul li{
+    padding-bottom: 3%;
+}
+	.contact-content{
+    /*padding-bottom: 40%;*/
+}
+
+#discussion{
+    font-size: 1em;
+	display: none;
+}
+
+#disqus_thread{
+    
+	display: none;
+}
+
+.tag{
+	font-size: 1.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: rgb(254, 254, 254);
+    background-color: #38529F;
+    border-color: #FEFEFE;
+    border-radius: 0.5em;
+    font-weight: initial;
+    margin: 0.1em;
+}
+    
+}
+
+/* For tablets*/
