@@ -34,11 +34,11 @@
 </div>
 
 <div id="fullpage" class="fullpage-wrapper" style="height: 100%; position: relative; touch-action: none; transform: translate3d(0px, 0px, 0px);">
-    
+
 	<div class="section active" id="home-section" data-anchor="home" style="background: url('../images/background.png') repeat;">
         <div class="intro">
             <div class="home-content" id="about" style="font-family: 'Comic Sans MS', sans-serif; ">
-                <img id="icon-image" src="images/meghz.jpg">
+
                 <h1 style="font-family: 'Permanent Marker', cursive; color: #38529F;">
                     Meghanath Reddy
                 </h1>
@@ -117,13 +117,13 @@
                     Designed and developed an automated software deployment system to reduce the commercialization and testing effort for field engineers.
                 </li>
                 <li>
-                    Experienced all the stages of software development from concept to commercialization/deployment. 
+                    Experienced all the stages of software development from concept to commercialization/deployment.
                 </li>
-				
+
 				<li>
                     <b>On the Job Training</b> - Applying Advanced Design patterns (Industrial Logic) | Lean Object-Oriented Design (Industrial Logic).
                 </li>
-				
+
             </ul>
         </div>
     </div>
@@ -476,7 +476,7 @@
                         </div>
                     </div>
                 </div>
-				
+
 				<div class="slide">
             <div class="intro">
                 <div class="thumbnail projects-tile projects-content">
@@ -539,8 +539,8 @@
                         </div>
                     </div>
                 </div>
-				
-				
+
+
                 <div class="slide">
                     <div class="intro">
                         <div class="thumbnail projects-tile projects-content">
@@ -823,7 +823,7 @@
                     </div>
                 </div>
             </div>
- 
+
 	<div class="section" id="contact-section" data-anchor="contact" style="background: url('../images/background.png') repeat;">
                 <div class="intro">
                     <div class="contact-content">
@@ -847,6 +847,10 @@
                             <div id="icons-big">
                                 <a href="https://www.linkedin.com/in/meghanathreddy" target="_blank" title="My professional network!">
                                     <img class="icon-image" src="images/linkedin.png" >
+                                </img>
+                            </a>
+                            <a href="https://github.com/meghz17" target="_blank" title="My Github network!">
+                                    <img class="icon-image" src="images/git.svg" >
                                 </img>
                             </a>
                             <a href="https://www.facebook.com/meghnath" target="_blank" title="My social network!">
@@ -910,6 +914,9 @@
             <a href="https://www.linkedin.com/in/meghanathreddy" target="_blank" title="My professional network!">
                 <img class="icon-image" src="images/linkedin.png">
             </a>
+            <a href="https://github.com/meghz17" target="_blank" title="My Github network!">
+                <img class="icon-image" src="images/git.svg">
+            </a>
             <a href="https://www.facebook.com/meghnath" target="_blank" title="My social network!">
                 <img class="icon-image" src="images/facebook.png">
             </a>
@@ -918,13 +925,13 @@
             </a>
         </div>
     </div>
-    
+
 	<script type="text/javascript">
         changeBackground();
         skillsLoad1();
         skillsLoad2();
         $(document).ready(function() {
-			
+
         $('#fullpage').fullpage({
         anchors: ['home', 'experience', 'skills', 'projects', 'contact'],
         menu: '#menu',
@@ -962,14 +969,14 @@
         }
         });
 
-	
+
 		if(("#fp-tableCell").scrollHeight > ("#fp-tableCell").clientHeight)
 		{
 			$("#menu").style.boxShadow = "5px 5px 8px #888";
 		}
-		
+
         });
-				
+
 
         $(".scroll-bottom a").click(function(e){
         $.fn.fullpage.moveSectionDown();
@@ -977,9 +984,9 @@
         $(".scroll-top a").click(function(e){
         $.fn.fullpage.moveSectionUp();
         });
-        
-		
-		
+
+
+
         /**
         * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
         * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
